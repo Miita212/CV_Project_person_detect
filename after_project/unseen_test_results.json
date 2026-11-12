@@ -1,0 +1,34 @@
+[
+  {
+    "model": "stage1_yolo11m_1024",
+    "imgsz": 1024,
+    "precision": 0.6963,
+    "recall": 0.4201,
+    "mAP50": 0.4096,
+    "mAP50-95": 0.1514
+  },
+  {
+    "model": "stage1_yolo11m_1024",
+    "imgsz": 1280,
+    "precision": 0.6992,
+    "recall": 0.4412,
+    "mAP50": 0.4433,
+    "mAP50-95": 0.164
+  },
+  {
+    "model": "stage2_finetune_1280",
+    "imgsz": 1024,
+    "precision": 0.7024,
+    "recall": 0.4439,
+    "mAP50": 0.496,
+    "mAP50-95": 0.204
+  },
+  {
+    "model": "stage2_finetune_1280",
+    "imgsz": 1280,
+    "precision": 0.7048,
+    "recall": 0.4476,
+    "mAP50": 0.4988,
+    "mAP50-95": 0.2118
+  }
+]
