@@ -1,0 +1,20 @@
+   # 가중치 / 데이터셋
+   *.pt
+   *.onnx
+   person_data/
+   surfer_dataset/
+   *_backup/
+   runs/
+
+   # 영상
+   *.mp4
+   *.avi
+
+   # 비밀 키
+   serviceAccountKey.json
+   *.env
+
+   # Python
+   __pycache__/
+   *.pyc
+   .venv/
